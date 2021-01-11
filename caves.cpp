@@ -134,7 +134,7 @@ class Bag{
 
 };
 
-//the most flexible way, is to make an array, and then render it, will allow to have things
+//the most flexible way is to make an array, and then render it, will allow to have things
 //drawn on top of each other
 
 int main(){
@@ -183,7 +183,7 @@ int main(){
 			//Y// yPos < 10    yPos > ySize-10
 
 			int xOff = 0, yOff = 0;
-			//This is good, but not good enought
+			//This is good, but not good enough
 			if(player.xPos < 34){
 			xOff = 34;
 			}else
@@ -248,7 +248,7 @@ int main(){
 			//TEST
 			std::cout << "map size " << map.xSize << " by " << map.ySize << " so " << map.totalSize << std::endl;
 			std::cout << "player position x y: " << player.xPos << " " << player.yPos << std::endl; 
-			//map.genMap(1); working, good enought
+			//map.genMap(1); working, good enough
 
 
 
